@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victors recept</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="menubar-item"><a href="#">Sign up</a></li>
+          <li class="menubar-item"><a href="#">Log in</a></li>
+          <li class="menubar-item"><a href="#">Hitta butik</a></li>
+          <li class="menubar-item"><a href="#">Kundservice</a></li>
+          <li class="menubar-item"><a href="#">Sök efter recept </a></li>
+        </ul>
+        <div class="kitchen">
+          <img class="logo" src="logo.png" alt="" />
+          <p1>Victors kitchen:</p1>
+
+          <div class="kitchen-item">
+            <a href="Churros.html" target="churros">Populära Recept</a>
+          </div>
+          <div class="kitchen-item"><a href="#">Recept</a></div>
+        </div>
+
+        <h1>!Nya Recept!</h1>
+
+        <div class="nya-recept-annons">
+          <ul class="recept">
+            <li class="bild_text">
+              <img class="nya-recept" src="Brownies.jpg" alt="" />
+              <p>Brownies</p>
+            </li>
+            <li class="bild_text">
+              <img class="nya-recept" src="grilled_cheese.jpg" alt="" />
+              <p>Grilled Cheese</p>
+            </li>
+            <li class="bild_text">
+              <img class="nya-recept" src="burgare.jpg" alt="" />
+              <p>Burgare</p>
+            </li>
+            <li class="bild_text">
+              <img class="nya-recept" src="chicken3.jpg" alt="" />
+              <p>Orange Chicken</p>
+            </li>
+          </ul>
+
+          <ul class="recept-under">
+            <li class="bild_text">
+              <img class="nya-recept" src="steak.jpeg" alt="" />
+              <p>Steak</p>
+            </li>
+            <li class="bild_text">
+              <img class="nya-recept" src="chicken.soup.jpg" alt="" />
+              <p>Chicken soup</p>
+            </li>
+            <li class="bild_text">
+              <img class="nya-recept" src="pankakor2.png" alt="" />
+              <p>Pankakor</p>
+            </li>
+            <li class="bild_text">
+              <img class="nya-recept" src="köttbullar.jpg" alt="" />
+              <p>Köttbullar</p>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
+
+____________________________________________________________________________________________________________________________________________________________
+
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("bakgrund7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: relative;
+}
+
+.kitchen {
+  font-family: "Cinzel", serif;
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  background-color: white;
+}
+
+.kitchen-item a {
+  color: black;
+  font-size: 40px;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 120px;
+}
+.kitchen-item a {
+  display: inline-block;
+}
+.kitchena:hover {
+  transform: scale(1.1);
+}
+
+.menu {
+  border: solid black;
+  background-color: white;
+  list-style: none;
+  display: flex;
+  flex: 100%;
+  align-items: center;
+  height: 50px;
+  margin-top: 0px;
+}
+
+.menubar-item a {
+  display: inline-block;
+}
+.menubar-item a:hover {
+  transform: scale(1.1);
+}
+.menubar-item a {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: 100;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 160px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+}
+
+.nya-recept-annons {
+  margin-top: 30px;
+}
+
+.recept {
+  list-style: none;
+  display: flex;
+  flex: 100%;
+  align-items: center;
+}
+
+.bild_text {
+  border-radius: 10%;
+  background-color: beige;
+  width: 20vw;
+  text-align: center;
+  margin-left: 40px;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+.nya-recept {
+  border-radius: 10%;
+  height: 25vh;
+  width: 20vw;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+}
+
+.annons {
+  width: 50vw;
+  height: 25vh;
+  margin-left: 25%;
+}
+
+.recept-under {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex: 100%;
+  align-items: center;
+}
+
+.bild_text-under {
+  border-radius: 10%;
+  background-color: beige;
+  width: 20vw;
+  text-align: center;
+  margin-left: 40px;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+.nya-recept-under {
+  border-radius: 10%;
+  height: 25vh;
+  width: 20vw;
+}
+
